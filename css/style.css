@@ -1,0 +1,60 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    background-color: #120D31;
+    color: #08B2E3;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+
+a{
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+nav{
+    margin: 0 0;
+}
+
+header h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* This centers the title horizontally */
+    }
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #020402;
+}
+#front{
+    background-color: #6320EE;
+    width: 80%;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+#front h2{
+    text-align: center;
+}
+
+.hometextmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hotpink;
+}
+
+.hometext1{
+    padding: 20px;
+}
+
+.hometext2{
+    padding: 20px;
+}
